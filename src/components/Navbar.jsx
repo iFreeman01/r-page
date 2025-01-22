@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <div className='NavbarItems navbar-container'>
+        <div className='navbar-container'>
             <Link to="/" className='navbar-logo'>
               Casa Koba <i className='fab fa-typo3' />
             </Link>
@@ -39,12 +39,6 @@ function Navbar() {
               <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Services
-                </Link>
-              </li>
-
-              <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Samples
                 </Link>
               </li>
 
